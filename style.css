@@ -25,8 +25,13 @@ header {
     background-color: #2c3e50;
     color: #ecf0f1;
     padding: 20px 0;
-    text-align: center;
+    text-align: center; /* Centraliza o texto */
+    display: flex;
+    justify-content: center; /* Garante alinhamento horizontal */
+    align-items: center; /* Alinha verticalmente */
+    white-space: nowrap; /* Mantém o texto em linha reta */
 }
+
 
 header h1 {
     font-size: 3rem;
@@ -127,6 +132,7 @@ footer p {
     padding: 20px;
     text-align: center;
     display: inline-block;
+    font-family: "Arial, sans-serif";
 }
 
 
@@ -156,3 +162,119 @@ footer p {
         font-size: 1rem;
     }
 }
+
+.titulo01 {
+    text-align: center;
+}
+
+.texto01 {
+    background-color: #2980b9;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.texto02 {
+    background-color: #2980b9;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Arial, sans-serif";
+}
+
+.texto03 {
+    background-color: #2980b9;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    gap: 10px; /* Espaço entre as imagens */
+}
+
+.tutorial-img {
+    width: 200px; /* Ajuste conforme necessário */
+    height: auto;
+}
+.titulo06 {
+    text-align: center; /* Centraliza o título */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 30px; /* Aumenta o tamanho da fonte (ajuste conforme necessário) */
+}
+
+
+.titulo {
+    text-align: center; /* Centraliza o texto */
+    white-space: nowrap; /* Garante que o texto fique em linha reta */
+}
+
+.texto010 {
+    background-color: #2980b9;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.texto020 {
+    background-color: #2980b9;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Arial, sans-serif";
+}
+
+.texto030 {
+    background-color: #2980b9;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.texto0100 {
+    background-color: #2980b9;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.texto0200 {
+    background-color: #2980b9;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
